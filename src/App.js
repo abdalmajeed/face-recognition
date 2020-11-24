@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
 import Navigation from './Components/Navigation/Navigation'
 import Logo from './Components/Logo/Logo'
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Logo />
-      {/* <ImageLinkForm /> */}
+      <ImageLinkForm />
     </div>
   );
 }
